@@ -20,9 +20,9 @@ int is_composite(int n)
 void output(int n,int composite)
 {
   if(composite==0)
-  printf("COMPOSITE");
-  else
   printf("NOT COMPOSITE");
+  else
+  printf("COMPOSITE");
 }
 int main()
 {
